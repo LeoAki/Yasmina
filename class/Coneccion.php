@@ -14,7 +14,7 @@ class Coneccion {
     public function CONECT(){
         $this->server="localhost";
         $this->user="root";
-        $this->pass="Yasmina";
+        $this->pass="Yasmina0";
         $this->db="YASMINA";
         $this->cone=mysql_connect($this->server, $this->user, $this->pass) or die(mysql_error());
         mysql_query("SET NAME 'utf8'");
